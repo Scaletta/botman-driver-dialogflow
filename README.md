@@ -49,6 +49,18 @@ $botman->hears('Default Welcome Intent', function ($botman) {
 });
 ```
 
+### Add Outgoing Context
+
+To make use of parameters in DialogFlow you can use outgoing context
+
+```
+$parameters = ["Parameter_1" => "Test1", "Parameter_2" => "Test2"];
+$botman
+       ->addMessage(["name" => "test", "parameters" => $parameters, "lifespan" => 5])
+       ->addMessage("This message contains Outgoing Context")
+       ->sendMessage();
+```
+
 ### Multiple Message Replies
 
 Normally when you want to send multiple replies, you use `reply()` multiple times. Unfortunately this doesn't work for Dialogflow driver, cause the messages should be in a single [response](https://dialogflow.com/docs/fulfillment#response) payload.
