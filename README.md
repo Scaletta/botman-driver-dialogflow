@@ -1,4 +1,4 @@
-# BotMan Dialogflow Driver
+# BotMan Dialogflow Driver with Fixes
 
 BotMan driver to handle Dialogflow fulfillment with [BotMan](https://github.com/botman/botman).
 
