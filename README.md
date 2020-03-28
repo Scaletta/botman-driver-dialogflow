@@ -1,10 +1,10 @@
 # BotMan Dialogflow Driver with Fixes
 
 BotMan driver to handle Dialogflow fulfillment with [BotMan](https://github.com/botman/botman).
+The original repo is not maintained anymore, no answers on pullrequests. As for that reason i forked it with fixes.
+The main fix right now is to be able to provide Outgoing Context to DialogFlow.
 
-[![Build Status](https://travis-ci.org/eristemena/botman-driver-dialogflow.svg?branch=master)](https://travis-ci.org/eristemena/botman-driver-dialogflow)
-[![codecov](https://codecov.io/gh/eristemena/botman-driver-dialogflow/branch/master/graph/badge.svg)](https://codecov.io/gh/eristemena/botman-driver-dialogflow)
-[![StyleCI](https://styleci.io/repos/133281710/shield?branch=master)](https://styleci.io/repos/133281710)
+[![Build Status](https://travis-ci.org/scaletta/botman-driver-dialogflow.svg?branch=master)](https://travis-ci.org/scaletta/botman-driver-dialogflow)
 
 It uses [`eristemena/dialog-fulfillment-webhook-php`](https://github.com/eristemena/dialog-fulfillment-webhook-php) library, so it supports v1 and v2 of Dialogflow [request](https://dialogflow.com/docs/reference/v2-comparison).
 
