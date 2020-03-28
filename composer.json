@@ -1,23 +1,24 @@
 {
-    "name": "eristemena/botman-driver-dialogflow",
+    "name": "Scaletta/botman-driver-dialogflow",
     "license": "MIT",
-    "description": "Dialogflow fulfillment driver for BotMan",
+    "description": "Dialogflow fulfillment driver for BotMan with Fixes",
     "keywords": [
         "Bot",
         "BotMan",
-        "Dialogflow"
+        "Dialogflow",
+        "Fixes"
     ],
-    "homepage": "http://github.com/eristemena/botman-driver-dialogflow",
+    "homepage": "http://github.com/Scaletta/botman-driver-dialogflow",
     "authors": [
         {
-            "name": "Eris Ristemena",
-            "email": "e.ristemena@gmail.com"
+            "name": "G.T Nomikos",
+            "email": "g.t.nomikos@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.0",
         "botman/botman": "~2.1",
-        "eristemena/dialogflow-fulfillment-webhook-php": "dev-master"
+        "Scaletta/botman-driver-dialogflow": "dev-master"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
