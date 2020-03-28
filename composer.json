@@ -1,5 +1,5 @@
 {
-    "name": "Scaletta/botman-driver-dialogflow",
+    "name": "scaletta/botman-driver-dialogflow",
     "license": "MIT",
     "description": "Dialogflow fulfillment driver for BotMan with Fixes",
     "keywords": [
@@ -8,7 +8,7 @@
         "Dialogflow",
         "Fixes"
     ],
-    "homepage": "http://github.com/Scaletta/botman-driver-dialogflow",
+    "homepage": "http://github.com/scaletta/botman-driver-dialogflow",
     "authors": [
         {
             "name": "G.T Nomikos",
@@ -18,7 +18,7 @@
     "require": {
         "php": ">=7.0",
         "botman/botman": "~2.1",
-        "Scaletta/botman-driver-dialogflow": "dev-master"
+        "scaletta/botman-driver-dialogflow": "dev-master"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
