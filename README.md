@@ -13,7 +13,7 @@ It uses [`eristemena/dialog-fulfillment-webhook-php`](https://github.com/eristem
 First you need to pull in the Driver. 
 
 ```
-composer require eristemena/botman-driver-dialogflow
+composer require Scaletta/botman-driver-dialogflow
 ```
 
 If you're using BotMan Studio, that's pretty much it.
