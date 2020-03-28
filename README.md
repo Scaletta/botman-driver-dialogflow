@@ -1,3 +1,4 @@
+![PHP Composer](https://github.com/Scaletta/botman-driver-dialogflow/workflows/PHP%20Composer/badge.svg)
 # BotMan Dialogflow Driver with Fixes
 
 BotMan driver to handle Dialogflow fulfillment with [BotMan](https://github.com/botman/botman).
