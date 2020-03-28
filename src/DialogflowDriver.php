@@ -138,6 +138,10 @@ class DialogflowDriver extends HttpDriver
      */
     public function addMessage($message)
     {
+        if(is_array($message) || isset($message->name)){
+            $this->agent->setOutgoingContext($message);
+            return $this;
+        }
         if (!is_string($message) && !$message instanceof RichMessage && !$message instanceof Conversation) {
             throw new BotManException('Invalid message');
         }
